@@ -33,7 +33,7 @@ public class TestWater {
         tuna.die();
 
         Tuna tuna1 = new Tuna();
-        tuna1.tunaPrint();
+        //tuna1.tunaPrint();
 
         System.out.println("-----------------------------");
 
