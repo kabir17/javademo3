@@ -14,9 +14,6 @@ public class Tuna implements River{
     {
         System.out.println("Tuna die out of the sea");
     }
-    public void enjoy(){
-        System.out.println("Tuna enjoy in the water");
-    }
     public void tunaPrint(){
         for (int i=0; i<3; i++) {
             System.out.println("Tuna");
