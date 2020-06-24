@@ -32,6 +32,9 @@ public class TestWater {
         tuna.live();
         tuna.die();
 
+        Tuna tuna1 = new Tuna();
+        tuna1.tunaPrint();
+
         System.out.println("-----------------------------");
 
         Fish fish = new Shrimp();
