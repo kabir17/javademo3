@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 
 public class ReadFile {
-    public static void main(String[] args)throws IOException{
+    public static void main(String[] args){
 
         FileReader fr = null;
         BufferedReader br = null;
@@ -38,7 +38,7 @@ public class ReadFile {
             try {
                 fr.close();
             }catch (Exception ex){
-                System.out.println("unable funmer road");
+                System.out.println("unable");
             }
             System.out.println("");
         }
